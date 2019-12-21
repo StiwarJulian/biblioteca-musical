@@ -23,7 +23,7 @@ public class Connect {
     
     
     public void ejecutarActualizacion(String query) throws Exception {
-        state.executeQuery(query);
+        state.execute(query);
     }
     
     public ResultSet ejecutarQuery(String query) throws Exception {

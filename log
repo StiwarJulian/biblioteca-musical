@@ -1,0 +1,16 @@
+dic 17, 2019 7:13:07 AM BI.logger.Log escribirLog
+INFO: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`biblioteca_musica`.`cancion`, CONSTRAINT `cancion_ibfk_1` FOREIGN KEY (`idartista`) REFERENCES `artista` (`idartista`))
+dic 17, 2019 7:14:12 AM BI.logger.Log escribirLog
+INFO: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`biblioteca_musica`.`cancion`, CONSTRAINT `cancion_ibfk_1` FOREIGN KEY (`idartista`) REFERENCES `artista` (`idartista`))
+dic 17, 2019 7:17:14 AM BI.logger.Log escribirLog
+INFO: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`biblioteca_musica`.`artista`, CONSTRAINT `artista_ibfk_2` FOREIGN KEY (`idgenero`) REFERENCES `genero` (`idgenero`))
+dic 17, 2019 10:41:46 AM BI.logger.Log escribirLog
+INFO: No existe la combinacion de identificacion y contraseña
+dic 17, 2019 11:10:21 AM BI.logger.Log escribirLog
+INFO: No existe la combinacion de identificacion y contraseña
+dic 17, 2019 11:17:42 AM BI.logger.Log escribirLog
+INFO: No existe la combinacion de identificacion y contraseña
+dic 17, 2019 11:23:22 AM BI.logger.Log escribirLog
+INFO: No existe la combinacion de identificacion y contraseña
+dic 17, 2019 11:25:42 AM BI.logger.Log escribirLog
+INFO: La clave debe tener entre 8 y 12 caracteres
